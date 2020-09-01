@@ -210,7 +210,7 @@ class Ps_CarrierComparison extends Module implements WidgetInterface
     {
         $states = State::getStatesByIdCountry($idCountry);
 
-        return (sizeof($states) ? $states : array());
+        return (count($states) ? $states : array());
     }
 
     /*
@@ -246,7 +246,7 @@ class Ps_CarrierComparison extends Module implements WidgetInterface
             $this->context->customer->id
         );
 
-        return (sizeof($carriers) ? $carriers : array());
+        return (count($carriers) ? $carriers : array());
     }
 
     /*

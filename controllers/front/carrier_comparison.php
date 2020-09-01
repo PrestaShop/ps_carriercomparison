@@ -24,9 +24,9 @@
  * International Registered Trademark & Property of PrestaShop SA
  */
 
-require_once(dirname(__FILE__) . '/../../../../config/config.inc.php');
-require_once(dirname(__FILE__) . '/../../../../init.php');
-require_once(dirname(__FILE__) . '/../../ps_carriercomparison.php');
+require_once(__DIR__ . '/../../../../config/config.inc.php');
+require_once(__DIR__ . '/../../../../init.php');
+require_once(__DIR__ . '/../../ps_carriercomparison.php');
 
 class ps_carriercomparisoncarrier_comparisonModuleFrontController extends ModuleFrontController
 {
